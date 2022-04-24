@@ -1,0 +1,38 @@
+{
+  "name": "mimblewimble-js",
+  "version": "1.0.0",
+  "description": "Library for MimbleWimble transactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegabu/mimblewimble-js.git"
+  },
+  "keywords": [
+    "mimblewimble",
+    "crypto",
+    "wallet",
+    "privacy"
+  ],
+  "author": "Oleg Abdrashitov",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/olegabu/mimblewimble-js/issues"
+  },
+  "homepage": "https://github.com/olegabu/mimblewimble-js#readme",
+  "dependencies": {
+    "@vulpemventures/secp256k1-zkp": "^2.0.0",
+    "bigint-buffer": "^1.1.5",
+    "bignumber.js": "^9.0.2",
+    "bip39": "^3.0.4",
+    "blakejs": "^1.2.1",
+    "crypto-js": "^4.1.1",
+    "hdkey": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
+  }
+}
